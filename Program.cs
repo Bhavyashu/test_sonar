@@ -24,6 +24,8 @@ namespace CodeSmellExample
             // Code smell: Thread sleep
             Thread.Sleep(5000);
 
+            Console.WriteLine("Hi");
+
             // Code smell: Redundant array creation
             int[] numbers = new int[] { 1, 2, 3, 4, 5 };
             PrintNumbers(numbers);
